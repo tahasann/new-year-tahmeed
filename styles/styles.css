@@ -176,10 +176,6 @@ header {
 }
 
 
-
-
-.div2-img-container {}
-
 .div2-img {
     border: 15px solid #f00;
     border-radius: 500px;
@@ -274,7 +270,7 @@ header {
 
 .div4 {
     width: 1320px;
-margin: 0 auto;
+    margin: 0 auto 120px;
 }
 
 .div4 h3 {
@@ -300,13 +296,127 @@ margin: 0 auto;
     line-height: 1.5;
 }
 
-.div4-pictures img{
-margin: 10px 10px 0px 0px ;
-width: 420px;
-display: inline;
+.div4-pictures img {
+    margin: 10px 10px 0px 0px;
+    width: 420px;
+    display: inline;
 }
-.div4-pictures img:hover{
-   border: 8px solid #F00;
-   border-radius: 30px;
-   margin: 0px;
+
+.div4-pictures img:hover {
+    border: 8px solid #F00;
+    border-radius: 30px;
+    margin: 0px;
 }
+
+.banner3 {
+    width: 1320px;
+    height: 600px;
+    margin: 0px auto 120px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.banner3 div {
+    padding-top: 80px;
+}
+
+.banner3 h2 {
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.banner3 p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto 48px;
+}
+
+
+.email-input {
+    width: 400px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    margin-right: 0px;
+}
+
+.btn {
+    width: 150px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: white;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 0px;
+}
+
+footer {
+    background-color: black;
+    width: 1320px;
+    height: 700px;
+    margin: 0px auto;
+
+}
+
+
+footer h4 {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-div1{
+padding: 120px auto;
+}
+
+#address {
+    width: 375px;
+    padding: 120px 0px 50px;
+    line-height: 1.5;
+}
+
+#contact{
+    width: 251px;
+padding: 120px 0px 50px;
+
+}
+
+.icon-container{
+    width: 350px;
+    margin: 50px auto 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-div2{
+display: flex;
+}
+
