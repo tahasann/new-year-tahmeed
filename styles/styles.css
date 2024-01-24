@@ -178,15 +178,13 @@ header {
 
 
 
-.div2-img-container{
+.div2-img-container {}
 
-}
-
-.div2-img{
-border: 15px solid #f00;
-border-radius: 500px;
-padding:30px ;
-margin-right: 120px;
+.div2-img {
+    border: 15px solid #f00;
+    border-radius: 500px;
+    padding: 30px;
+    margin-right: 120px;
 }
 
 
@@ -196,11 +194,119 @@ margin-right: 120px;
     font-size: 48px;
     font-weight: 700;
 }
-.div2-column2 p{
+
+.div2-column2 p {
     color: rgba(0, 0, 0, 0.5);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.5;
     width: 280px;
+}
+
+.div3-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.div3-header h4 {
+    color: black;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.div3-header h1 {
+    color: black;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 28px;
+
+}
+
+.div3-header span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.div3-header p {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.div3 {
+    width: 1320px;
+    margin: 0px auto 120px;
+
+}
+
+.div3-pictures {
+    width: 1320px;
+    height: 661px;
+    background-image: url(../images/Rectangle\ 1.png), url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right top, bottom;
+    margin-top: 0px;
+}
+
+#group75 {
+    width: 700px;
+    margin: 100px 0px 0px 50px;
+
+}
+
+#group44 {
+    width: 220px;
+    margin-bottom: 350px;
+    margin-left: 20px;
+}
+
+.div4 {
+    width: 1320px;
+margin: 0 auto;
+}
+
+.div4 h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.div4 h2 {
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.div4 p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.div4-pictures img{
+margin: 10px 10px 0px 0px ;
+width: 420px;
+display: inline;
+}
+.div4-pictures img:hover{
+   border: 8px solid #F00;
+   border-radius: 30px;
+   margin: 0px;
 }
